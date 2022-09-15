@@ -1,0 +1,17 @@
+sort1 uses: Bubble sort.
+
+How do you know?: We know that bubble sort has an upper bound of O(n^2) and lower bound of Omega of(n).
+By running sort1 on random and sorted text files we see that it consumes an average time of 9sec, and on sorted
+it consumes an average time of 1.5 secs.
+
+sort2 uses: Merge Sort.
+
+How do you know?: We know that Merge sort has an upper bound of O(nlogn) and lower bound of Omega of(nlogn).
+By running sort2 on random and sorted text files we see that it consumes an average time of 1.1sec, and on sorted
+it consumes an average time of 1.1 secs.
+
+sort3 uses: Selection Sort.
+
+How do you know?: We know that Selection Sort has an upper bound of O(n^2) and lower bound of Omega of(n^2).
+By running sort on random and sorted text files we see that it consumes an average time of 4.5sec, and on sorted
+it consumes an average time of 4.5 secs.
