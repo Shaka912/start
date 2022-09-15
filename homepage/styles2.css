@@ -1,0 +1,251 @@
+body {
+    background-color: rgb(229, 234, 240);
+}
+nav {
+    width: 100%;
+    background: gray;
+    overflow: auto;
+
+}
+ul {
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+
+}
+li {
+    float: right;
+
+}
+.logo img {
+    position: absolute;
+    margin-top:15px ;
+    margin-left:10px ;
+
+}
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color: #f2f2f2;
+    text-align: center;
+}
+nav a:hover {
+    background: orange;
+    transition: 0.5sec;
+}
+h1{
+    font-size: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 95px;
+    left: 35px;
+    font-weight: 700;
+}
+p.reach {
+    color: rgb(58, 58, 58);
+    font-size: 24px;
+    position: relative;
+    top: 108px;
+    left: 35px;
+}
+p.testomonial1{
+    position: relative;
+    top: 140px;
+    left: 33px;
+    background-color: #ffffff;
+    padding: 20px 20px 100px 30px;
+    box-sizing: border-box;
+    display: block;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+h3.testo{
+    position: relative;
+    top: 60px;
+    left: 200px;
+}
+h3.name{
+    position: relative;
+    top: -175px;
+    left: 730px;
+    font-weight: 400;
+}
+input.name{
+    position: relative;
+    top: -170px;
+    left: 730px;
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 50%;
+    background-color: rgb(229, 234, 240);
+}
+h3.email{
+    position: relative;
+    top: -140px;
+    left: 730px;
+    font-weight: 400;
+}
+input.email{
+    position: relative;
+    top: -120px;
+    left: 730px;
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 50%;
+    background-color: rgb(229, 234, 240);
+}
+h3.company{
+    position: relative;
+    top: -100px;
+    left: 730px;
+    font-weight: 400;
+}
+input.company{
+    position: relative;
+    top: -80px;
+    left: 730px;
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 50%;
+    background-color: rgb(229, 234, 240);
+}
+h3.what{
+    position: relative;
+    top: -60px;
+    left: 730;
+    font-weight: 400;
+}
+#vehicle1{
+    position: relative;
+    top: -40px;
+    left: 730px;
+    font-weight: 400 ;
+    font-size: 20px;
+}
+#vehicle2{
+    position: relative;
+    top: -20px;
+    left: 730px;
+    font-weight: 400 ;
+    font-size: 20px;
+}
+#vehicle3{
+    position: relative;
+    top: 0px;
+    left: 730px;
+    font-weight: 400 ;
+    font-size: 20px;
+}
+h3.project{
+    position: relative;
+    top: 20px;
+    left: 730px;
+    font-weight: 400;
+}
+input.project{
+    position: relative;
+    top: 30px;
+    left: 730px;
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 50%;
+    background-color: rgb(229, 234, 240);
+}
+
+p.testomonial2{
+    background-color: #ffffff;
+    padding: 20px 20px 120px 30px;
+    box-sizing: border-box;
+    display: block;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    top: -300px;
+    left: 20px;
+}
+input[type=submit] {
+    position: relative;
+    top: 130px;
+    left: 100px;
+    background-color: black;
+    color:white;
+    border-radius: 20px;
+    padding: 15px 7px 15px 7px;
+    font-size: 22px;
+}
+footer {
+    background-color: black;
+    margin: 0;
+    padding: 70px 0;
+    line-height: 1.5;
+
+}
+.container {
+    margin: auto;
+    max-width: 1170px;
+}
+ul{
+    list-style: none
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #f2f2f2;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    color: #bbbbbb;
+    transition: all 0.3s ease;
+
+}
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col .social-links {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+}

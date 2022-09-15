@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block title %}
+    Quote
+{% endblock %}
+{% block main %}
+    <h1>Get Quote of your favorote Stock</h1>
+    <h2>Please Enter the Symbol of the Stock you want to lookup.</h2>
+    <div class="mb-3">
+        <form action="/quote" method="post">
+            <div class="mb-3">
+                <input placeholder="Symbol" autocomplete="off" class="form-control mx-auto w-auto" autofocus type="text" name="sym">
+                <input type="submit" value="Get" class="form-control mx-auto w-auto">
+            </div>
+        </form>
+    </div>
+{% endblock %}
